@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Einsatzmonitor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-sA+4UFcG8z2YTL28E5CfP1R0YwHj0zZ8eqi5cuxkWVk=" crossorigin=""/>
+</head>
+<body>
+  <button id="fullscreen-btn">Vollbild</button>
+  <button id="audio-btn">Audio aktivieren</button>
+  <div id="clock"></div>
+  <div id="map"></div>
+  <div id="vehicles"></div>
+  <div id="alert" class="hidden">
+    <audio id="gong" src="alert.mp3"></audio>
+    <div id="alert-content"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-o9N1j7kNPcOf3OPhw36jhipkAQ4ye6P6su1o9V+g0u8=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>
