@@ -4,9 +4,18 @@ Ein einfacher Einsatzmonitor mit freier API und Weboberfläche. Der Server basie
 
 ## Installation
 
+### Node.js
+
 ```bash
 npm install
 npm start
+```
+
+### Python
+
+```bash
+pip install -r requirements.txt
+python server.py
 ```
 
 Lege eine Audiodatei `public/alert.mp3` ab, um den Alarmgong zu definieren.
