@@ -1,21 +1,23 @@
 # Einsatzmonitor
 
-Ein einfacher Einsatzmonitor mit freier API und Weboberfläche. Der Server basiert auf Node.js und stellt eine Website bereit, die die Fahrzeugpositionen auf einer OpenStreetMap-Karte darstellt und Alarmierungen visualisiert.
+Ein einfacher Einsatzmonitor mit freier API und Weboberfläche. Der Server basiert auf Python und stellt eine Website bereit, die die Fahrzeugpositionen auf einer OpenStreetMap-Karte darstellt und Alarmierungen visualisiert.
 
 ## Installation
 
-### Node.js
-
-```bash
-npm install
-npm start
-```
-
-### Python
-
 ```bash
 pip install -r requirements.txt
-python server.py
+```
+
+## Start
+
+```bash
+python start.py
+```
+
+## Update
+
+```bash
+python update.py
 ```
 
 Lege eine Audiodatei `public/alert.mp3` ab, um den Alarmgong zu definieren.
